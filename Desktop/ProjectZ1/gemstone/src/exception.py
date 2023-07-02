@@ -6,8 +6,7 @@ def error_message_detail(error,error_detail:sys):
     file_name = exc_tb.tb_frame.f_code.co_filename  # in which file it is showing error
 
     error_message = "Error occured in python script name [{0}] line number [{1}] error message [{2}]".format(
-        file_name, exc_tb.tb_lineno, str(error)
-    )
+        file_name, exc_tb.tb_lineno, str(error))
 
     return error_message
 
@@ -22,7 +21,7 @@ class CustomException(Exception):
     
 
 
-if __name__=="__main__":
+'''if __name__=="__main__":
     logging.info("Logging has started")
 
     try:
@@ -30,3 +29,4 @@ if __name__=="__main__":
     except Exception as e:
         logging.info('Division by zero') 
         raise CustomException(e,sys)
+'''
