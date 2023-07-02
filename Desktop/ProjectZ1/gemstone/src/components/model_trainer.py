@@ -14,7 +14,7 @@ import os
 
 @dataclass 
 class ModelTrainerConfig:
-    trained_model_file_path = os.path.join('artifacts','model.pkl')
+    trained_model_file_path = os.path.join('artifacts','model.pkl')  #output pickle file will get saved inside artifact follder
 
 
 class ModelTrainer:

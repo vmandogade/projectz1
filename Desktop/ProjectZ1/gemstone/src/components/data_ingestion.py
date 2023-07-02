@@ -57,8 +57,8 @@ class DataIngestion:
 
 
 
-if __name__=='__main__':
-    obj=DataIngestion()  #object created for DataIngestion class
-    train_data_path,test_data_path=obj.initiate_data_ingestion() # WKT, to access function we need to create object.
-    data_transformation = DataTransformation()   #object created for DataTransformation class so that we can access initiate_data_transformation function
-    train_arr, test_arr,_ = data_transformation.initaite_data_transformation(train_data_path,test_data_path)  # to avoid 'too many values to unpack' error. wrote '_'.
+#if __name__=='__main__':
+    #obj=DataIngestion()  #object created for DataIngestion class
+    #train_data_path,test_data_path=obj.initiate_data_ingestion() # WKT, to access function we need to create object.
+    #data_transformation = DataTransformation()   #object created for DataTransformation class so that we can access initiate_data_transformation function
+    #train_arr, test_arr,_ = data_transformation.initaite_data_transformation(train_data_path,test_data_path)  # to avoid 'too many values to unpack' error. wrote '_'.
