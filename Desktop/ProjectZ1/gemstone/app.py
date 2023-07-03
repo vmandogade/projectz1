@@ -1,6 +1,6 @@
 from flask import Flask,request,render_template,jsonify
 from src.pipeline.prediction_pipeline import CustomData,PredictPipeline
-
+                    #CustomData, PredictPipeline are the classes available in prediction_pipeline python file
 
 application=Flask(__name__)
 
